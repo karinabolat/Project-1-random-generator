@@ -115,6 +115,14 @@ h1 {
   font-style: normal;
 }
 
+.occupation {
+  font-size: 0.8rem;
+}
+.occupation:before {
+  content: ", ";
+  font-style: normal;
+}
+
 @media (min-width: 768px) {
   body {
     padding: 25px;
